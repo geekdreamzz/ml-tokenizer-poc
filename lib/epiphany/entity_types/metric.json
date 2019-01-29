@@ -1,0 +1,4 @@
+{
+  "validation_type": "text_match",
+  "known_phrases": ["pound", "lb", "kg", "kilogram"]
+}

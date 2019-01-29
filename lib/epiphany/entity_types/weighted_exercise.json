@@ -1,0 +1,4 @@
+{
+  "validation_type": "text_match",
+  "known_phrases": ["squat", "deadlift", "bench press", "dead lift", "benchpress"]
+}

@@ -1,0 +1,4 @@
+{
+  "validation_type": "text_match",
+  "known_phrases": ["pushup", "push up", "pull up", "pullup", "crunch", "sit up", "situp"]
+}
