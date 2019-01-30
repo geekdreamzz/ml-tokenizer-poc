@@ -38892,3 +38892,2502 @@ rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
 /Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
 /Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
 /Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany" for ::1 at 2019-01-29 22:25:54 -0500
+Processing by Epiphany::HomeController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application (2.1ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.4ms)
+Completed 200 OK in 595ms (Views: 594.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg-title-01.jpg" for ::1 at 2019-01-29 22:25:55 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/bg-title-01.jpg"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/test_phrases" for ::1 at 2019-01-29 22:26:09 -0500
+Processing by Epiphany::TestPhrasesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/test_phrases/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/test_phrases/index.html.erb within layouts/epiphany/application (1.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (1.0ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.5ms)
+Completed 200 OK in 237ms (Views: 236.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 22:26:14 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/epiphany/entity_types"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany" for ::1 at 2019-01-29 22:33:37 -0500
+Processing by Epiphany::HomeController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application (1.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.4ms)
+Completed 200 OK in 430ms (Views: 429.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg-title-01.jpg" for ::1 at 2019-01-29 22:33:38 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/bg-title-01.jpg"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 22:33:46 -0500
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for Epiphany::EntityTypesController):
+  
+actionpack (5.2.2) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/phrases" for ::1 at 2019-01-29 22:33:58 -0500
+Processing by Epiphany::PhrasesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/phrases/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/phrases/index.html.erb within layouts/epiphany/application (0.9ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.5ms)
+Completed 200 OK in 155ms (Views: 154.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany" for ::1 at 2019-01-29 22:38:01 -0500
+Processing by Epiphany::HomeController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application (1.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.6ms)
+Completed 200 OK in 366ms (Views: 364.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg-title-01.jpg" for ::1 at 2019-01-29 22:38:02 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/bg-title-01.jpg"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 22:38:04 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.3ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.3ms)
+Completed 200 OK in 128ms (Views: 126.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/intents" for ::1 at 2019-01-29 22:38:08 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/epiphany/intents"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/intents" for ::1 at 2019-01-29 22:39:03 -0500
+Processing by Epiphany::IntentsController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/intents/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/intents/index.html.erb within layouts/epiphany/application (1.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.8ms)
+Completed 200 OK in 342ms (Views: 339.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/phrases" for ::1 at 2019-01-29 22:39:07 -0500
+Processing by Epiphany::PhrasesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/phrases/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/phrases/index.html.erb within layouts/epiphany/application (0.8ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.3ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.4ms)
+Completed 200 OK in 90ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/analyzers" for ::1 at 2019-01-29 22:39:18 -0500
+Processing by Epiphany::AnalyzersController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/analyzers/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/analyzers/index.html.erb within layouts/epiphany/application (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.9ms)
+Completed 200 OK in 111ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/intents" for ::1 at 2019-01-29 22:39:22 -0500
+Processing by Epiphany::IntentsController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/intents/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/intents/index.html.erb within layouts/epiphany/application (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.3ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.4ms)
+Completed 200 OK in 85ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 22:39:24 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.5ms)
+Completed 200 OK in 131ms (Views: 130.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany" for ::1 at 2019-01-29 22:39:28 -0500
+Processing by Epiphany::HomeController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application (0.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.6ms)
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg-title-01.jpg" for ::1 at 2019-01-29 22:39:28 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/bg-title-01.jpg"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 22:39:31 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.6ms)
+Completed 200 OK in 114ms (Views: 112.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/intents" for ::1 at 2019-01-29 22:39:34 -0500
+Processing by Epiphany::IntentsController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/intents/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/intents/index.html.erb within layouts/epiphany/application (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.2ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.4ms)
+Completed 200 OK in 88ms (Views: 86.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/analyzers" for ::1 at 2019-01-29 22:39:36 -0500
+Processing by Epiphany::AnalyzersController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/analyzers/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/analyzers/index.html.erb within layouts/epiphany/application (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.5ms)
+Completed 200 OK in 116ms (Views: 115.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/phrases" for ::1 at 2019-01-29 22:39:39 -0500
+Processing by Epiphany::PhrasesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/phrases/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/phrases/index.html.erb within layouts/epiphany/application (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.2ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.6ms)
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/analyzers" for ::1 at 2019-01-29 22:39:42 -0500
+Processing by Epiphany::AnalyzersController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/analyzers/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/analyzers/index.html.erb within layouts/epiphany/application (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.6ms)
+Completed 200 OK in 93ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/phrases" for ::1 at 2019-01-29 22:39:45 -0500
+Processing by Epiphany::PhrasesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/phrases/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/phrases/index.html.erb within layouts/epiphany/application (0.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.4ms)
+Completed 200 OK in 90ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/analyzers" for ::1 at 2019-01-29 22:39:46 -0500
+Processing by Epiphany::AnalyzersController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/analyzers/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/analyzers/index.html.erb within layouts/epiphany/application (0.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.7ms)
+Completed 200 OK in 105ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/intents" for ::1 at 2019-01-29 22:39:49 -0500
+Processing by Epiphany::IntentsController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/intents/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/intents/index.html.erb within layouts/epiphany/application (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.2ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.3ms)
+Completed 200 OK in 100ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 22:39:51 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (0.8ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.6ms)
+Completed 200 OK in 92ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany" for ::1 at 2019-01-29 22:39:54 -0500
+Processing by Epiphany::HomeController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application (1.1ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.5ms)
+Completed 200 OK in 104ms (Views: 102.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg-title-01.jpg" for ::1 at 2019-01-29 22:39:54 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/bg-title-01.jpg"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 22:41:47 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (0.9ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.5ms)
+Completed 200 OK in 127ms (Views: 125.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 22:45:35 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 111ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `all' for Epiphany::Tokenizer::Schema::EntityType:Class):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 22:47:30 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (1.2ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.7ms)
+Completed 200 OK in 246ms (Views: 243.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 22:47:45 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 607812ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+pry (0.12.2) lib/pry/commands/exit_program.rb:16:in `exit'
+pry (0.12.2) lib/pry/commands/exit_program.rb:16:in `process'
+pry (0.12.2) lib/pry/command.rb:613:in `call'
+pry (0.12.2) lib/pry/command.rb:488:in `call_with_hooks'
+pry (0.12.2) lib/pry/command.rb:439:in `block in call_safely'
+pry (0.12.2) lib/pry/command.rb:447:in `use_unpatched_symbol'
+pry (0.12.2) lib/pry/command.rb:438:in `call_safely'
+pry (0.12.2) lib/pry/command.rb:380:in `process_line'
+pry (0.12.2) lib/pry/command_set.rb:365:in `process_line'
+pry (0.12.2) lib/pry/command.rb:248:in `run'
+pry (0.12.2) lib/pry/command_set.rb:190:in `block in alias_command'
+pry (0.12.2) lib/pry/command.rb:527:in `instance_exec'
+pry (0.12.2) lib/pry/command.rb:527:in `call'
+pry (0.12.2) lib/pry/command.rb:488:in `call_with_hooks'
+pry (0.12.2) lib/pry/command.rb:439:in `block in call_safely'
+pry (0.12.2) lib/pry/command.rb:447:in `use_unpatched_symbol'
+pry (0.12.2) lib/pry/command.rb:438:in `call_safely'
+pry (0.12.2) lib/pry/command.rb:380:in `process_line'
+pry (0.12.2) lib/pry/command_set.rb:365:in `process_line'
+pry (0.12.2) lib/pry/pry_instance.rb:437:in `process_command'
+pry (0.12.2) lib/pry/pry_instance.rb:469:in `process_command_safely'
+pry (0.12.2) lib/pry/pry_instance.rb:304:in `handle_line'
+pry (0.12.2) lib/pry/pry_instance.rb:274:in `block (2 levels) in eval'
+pry (0.12.2) lib/pry/pry_instance.rb:273:in `catch'
+pry (0.12.2) lib/pry/pry_instance.rb:273:in `block in eval'
+pry (0.12.2) lib/pry/pry_instance.rb:272:in `catch'
+pry (0.12.2) lib/pry/pry_instance.rb:272:in `eval'
+pry (0.12.2) lib/pry/repl.rb:77:in `block in repl'
+pry (0.12.2) lib/pry/repl.rb:67:in `loop'
+pry (0.12.2) lib/pry/repl.rb:67:in `repl'
+pry (0.12.2) lib/pry/repl.rb:38:in `block in start'
+pry (0.12.2) lib/pry/input_lock.rb:59:in `__with_ownership'
+pry (0.12.2) lib/pry/input_lock.rb:77:in `with_ownership'
+pry (0.12.2) lib/pry/repl.rb:38:in `start'
+pry (0.12.2) lib/pry/repl.rb:13:in `start'
+pry (0.12.2) lib/pry/pry_class.rb:200:in `start'
+pry (0.12.2) lib/pry/core_extensions.rb:43:in `pry'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:5:in `all'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 22:58:13 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `all_entity_types' for Epiphany::Tokenizer::Schema:Module):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:27:in `all'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 22:59:23 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 81912ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Epiphany::Tokenizer::Schema):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:11:in `<class:Tokenizer>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:10:in `<module:Epiphany>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:9:in `<top (required)>'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.2) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:13:in `loading'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:28:in `all'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:00:47 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Epiphany::Tokenizer::Schema):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:11:in `<class:Tokenizer>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:10:in `<module:Epiphany>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:9:in `<top (required)>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:1:in `require_relative'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:1:in `<top (required)>'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.2) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:13:in `loading'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:00:49 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Epiphany::Tokenizer::Schema):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:11:in `<class:Tokenizer>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:10:in `<module:Epiphany>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:9:in `<top (required)>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:1:in `require_relative'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:1:in `<top (required)>'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.2) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:13:in `loading'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:01:13 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Epiphany::Tokenizer::Schema):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:11:in `<class:Tokenizer>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:10:in `<module:Epiphany>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:9:in `<top (required)>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:2:in `require_relative'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:2:in `<top (required)>'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.2) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:13:in `loading'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:03:25 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Epiphany::Tokenizer::Schema):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:11:in `<class:Tokenizer>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:10:in `<module:Epiphany>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:9:in `<top (required)>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:2:in `require_relative'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:2:in `<top (required)>'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.2) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:13:in `loading'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:03:58 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- tokenizer_schema):
+  
+activesupport (5.2.2) lib/active_support/dependencies.rb:291:in `require'
+activesupport (5.2.2) lib/active_support/dependencies.rb:291:in `block in require'
+activesupport (5.2.2) lib/active_support/dependencies.rb:255:in `block in load_dependency'
+activesupport (5.2.2) lib/active_support/dependencies.rb:661:in `new_constants_in'
+activesupport (5.2.2) lib/active_support/dependencies.rb:255:in `load_dependency'
+activesupport (5.2.2) lib/active_support/dependencies.rb:291:in `require'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:1:in `<top (required)>'
+activesupport (5.2.2) lib/active_support/dependencies.rb:476:in `load'
+activesupport (5.2.2) lib/active_support/dependencies.rb:476:in `block in load_file'
+activesupport (5.2.2) lib/active_support/dependencies.rb:661:in `new_constants_in'
+activesupport (5.2.2) lib/active_support/dependencies.rb:475:in `load_file'
+activesupport (5.2.2) lib/active_support/dependencies.rb:373:in `block in require_or_load'
+activesupport (5.2.2) lib/active_support/dependencies.rb:37:in `block in load_interlock'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.2) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:13:in `loading'
+activesupport (5.2.2) lib/active_support/dependencies.rb:37:in `load_interlock'
+activesupport (5.2.2) lib/active_support/dependencies.rb:356:in `require_or_load'
+activesupport (5.2.2) lib/active_support/dependencies.rb:510:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/dependencies.rb:195:in `const_missing'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:05:40 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Epiphany::Tokenizer::Schema):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:11:in `<class:Tokenizer>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:10:in `<module:Epiphany>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:9:in `<top (required)>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:2:in `require_relative'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:2:in `<top (required)>'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.2) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:13:in `loading'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:10:05 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Epiphany::Tokenizer::Schema):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:11:in `<class:Tokenizer>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:10:in `<module:Epiphany>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:9:in `<top (required)>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:2:in `require_relative'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:2:in `<top (required)>'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.2) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:13:in `loading'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:10:30 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 145738ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `all_entity_types' for Epiphany::Tokenizer::Schema:Module):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:31:in `all'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:15:28 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 15470ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Epiphany::Tokenizer::Schema):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:11:in `<class:Tokenizer>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:10:in `<module:Epiphany>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:9:in `<top (required)>'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.2) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:13:in `loading'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:31:in `all'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:15:55 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 163231ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+pry (0.12.2) lib/pry/commands/exit_program.rb:16:in `exit'
+pry (0.12.2) lib/pry/commands/exit_program.rb:16:in `process'
+pry (0.12.2) lib/pry/command.rb:613:in `call'
+pry (0.12.2) lib/pry/command.rb:488:in `call_with_hooks'
+pry (0.12.2) lib/pry/command.rb:439:in `block in call_safely'
+pry (0.12.2) lib/pry/command.rb:447:in `use_unpatched_symbol'
+pry (0.12.2) lib/pry/command.rb:438:in `call_safely'
+pry (0.12.2) lib/pry/command.rb:380:in `process_line'
+pry (0.12.2) lib/pry/command_set.rb:365:in `process_line'
+pry (0.12.2) lib/pry/command.rb:248:in `run'
+pry (0.12.2) lib/pry/command_set.rb:190:in `block in alias_command'
+pry (0.12.2) lib/pry/command.rb:527:in `instance_exec'
+pry (0.12.2) lib/pry/command.rb:527:in `call'
+pry (0.12.2) lib/pry/command.rb:488:in `call_with_hooks'
+pry (0.12.2) lib/pry/command.rb:439:in `block in call_safely'
+pry (0.12.2) lib/pry/command.rb:447:in `use_unpatched_symbol'
+pry (0.12.2) lib/pry/command.rb:438:in `call_safely'
+pry (0.12.2) lib/pry/command.rb:380:in `process_line'
+pry (0.12.2) lib/pry/command_set.rb:365:in `process_line'
+pry (0.12.2) lib/pry/pry_instance.rb:437:in `process_command'
+pry (0.12.2) lib/pry/pry_instance.rb:469:in `process_command_safely'
+pry (0.12.2) lib/pry/pry_instance.rb:304:in `handle_line'
+pry (0.12.2) lib/pry/pry_instance.rb:274:in `block (2 levels) in eval'
+pry (0.12.2) lib/pry/pry_instance.rb:273:in `catch'
+pry (0.12.2) lib/pry/pry_instance.rb:273:in `block in eval'
+pry (0.12.2) lib/pry/pry_instance.rb:272:in `catch'
+pry (0.12.2) lib/pry/pry_instance.rb:272:in `eval'
+pry (0.12.2) lib/pry/repl.rb:77:in `block in repl'
+pry (0.12.2) lib/pry/repl.rb:67:in `loop'
+pry (0.12.2) lib/pry/repl.rb:67:in `repl'
+pry (0.12.2) lib/pry/repl.rb:38:in `block in start'
+pry (0.12.2) lib/pry/input_lock.rb:59:in `__with_ownership'
+pry (0.12.2) lib/pry/input_lock.rb:77:in `with_ownership'
+pry (0.12.2) lib/pry/repl.rb:38:in `start'
+pry (0.12.2) lib/pry/repl.rb:13:in `start'
+pry (0.12.2) lib/pry/pry_class.rb:200:in `start'
+pry (0.12.2) lib/pry/core_extensions.rb:43:in `pry'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:30:in `all'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:18:59 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 236491ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(pry):2:in `new'
+(pry):2:in `all'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:23:04 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Epiphany::Tokenizer::Schema):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:11:in `<class:Tokenizer>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:10:in `<module:Epiphany>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:9:in `<top (required)>'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.2) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:13:in `loading'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:30:in `all'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:25:15 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Epiphany::Tokenizer::Schema):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:11:in `<class:Tokenizer>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:10:in `<module:Epiphany>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:9:in `<top (required)>'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.2) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:13:in `loading'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:30:in `all'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:25:24 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Epiphany::Tokenizer::Schema):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:11:in `<class:Tokenizer>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:10:in `<module:Epiphany>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:9:in `<top (required)>'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.2) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:13:in `loading'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:30:in `all'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:25:39 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- activesupport/concern):
+  
+activesupport (5.2.2) lib/active_support/dependencies.rb:291:in `require'
+activesupport (5.2.2) lib/active_support/dependencies.rb:291:in `block in require'
+activesupport (5.2.2) lib/active_support/dependencies.rb:255:in `block in load_dependency'
+activesupport (5.2.2) lib/active_support/dependencies.rb:661:in `new_constants_in'
+activesupport (5.2.2) lib/active_support/dependencies.rb:255:in `load_dependency'
+activesupport (5.2.2) lib/active_support/dependencies.rb:291:in `require'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer_schema.rb:1:in `<top (required)>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:1:in `require_relative'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:1:in `<top (required)>'
+activesupport (5.2.2) lib/active_support/dependencies.rb:476:in `load'
+activesupport (5.2.2) lib/active_support/dependencies.rb:476:in `block in load_file'
+activesupport (5.2.2) lib/active_support/dependencies.rb:661:in `new_constants_in'
+activesupport (5.2.2) lib/active_support/dependencies.rb:475:in `load_file'
+activesupport (5.2.2) lib/active_support/dependencies.rb:373:in `block in require_or_load'
+activesupport (5.2.2) lib/active_support/dependencies.rb:37:in `block in load_interlock'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.2) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:13:in `loading'
+activesupport (5.2.2) lib/active_support/dependencies.rb:37:in `load_interlock'
+activesupport (5.2.2) lib/active_support/dependencies.rb:356:in `require_or_load'
+activesupport (5.2.2) lib/active_support/dependencies.rb:510:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/dependencies.rb:195:in `const_missing'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:27:12 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (1.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.3ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.3ms)
+Completed 200 OK in 796ms (Views: 786.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany" for ::1 at 2019-01-29 23:33:06 -0500
+Processing by Epiphany::HomeController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application (2.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.8ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (1.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.5ms)
+Completed 200 OK in 363ms (Views: 360.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg-title-01.jpg" for ::1 at 2019-01-29 23:33:07 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/bg-title-01.jpg"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:35:04 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (4.0ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.6ms)
+Completed 200 OK in 216ms (Views: 212.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:35:30 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (0.8ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.5ms)
+Completed 200 OK in 140ms (Views: 138.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:36:38 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+Completed 500 Internal Server Error in 86ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Epiphany::Tokenizer::Schema):
+  
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:11:in `<class:Tokenizer>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:10:in `<module:Epiphany>'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/tokenizer.rb:9:in `<top (required)>'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+activesupport (5.2.2) lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+activesupport (5.2.2) lib/active_support/dependencies/interlock.rb:13:in `loading'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/models/epiphany/entity_type.rb:33:in `all'
+/Users/BoBao/dev/poc/ml-tokenizer-poc/app/controllers/epiphany/entity_types_controller.rb:6:in `index'
+actionpack (5.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.2) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+railties (5.2.2) lib/rails/railtie.rb:190:in `public_send'
+railties (5.2.2) lib/rails/railtie.rb:190:in `method_missing'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (5.2.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:36:57 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (2.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.4ms)
+Completed 200 OK in 552ms (Views: 542.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany" for ::1 at 2019-01-29 23:37:17 -0500
+Processing by Epiphany::HomeController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application (0.9ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.4ms)
+Completed 200 OK in 237ms (Views: 178.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg-title-01.jpg" for ::1 at 2019-01-29 23:37:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/bg-title-01.jpg"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:37:52 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (1.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.5ms)
+Completed 200 OK in 178ms (Views: 176.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:39:01 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (2.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.3ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.5ms)
+Completed 200 OK in 158ms (Views: 155.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany" for ::1 at 2019-01-29 23:39:26 -0500
+Processing by Epiphany::HomeController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application (0.8ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.5ms)
+Completed 200 OK in 123ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg-title-01.jpg" for ::1 at 2019-01-29 23:39:27 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/bg-title-01.jpg"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:40:11 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (1.1ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.4ms)
+Completed 200 OK in 130ms (Views: 128.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-29 23:40:25 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (0.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.3ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.2ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.2ms)
+Completed 200 OK in 197ms (Views: 196.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany" for ::1 at 2019-01-29 23:55:14 -0500
+Processing by Epiphany::HomeController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application (3.2ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.7ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.8ms)
+Completed 200 OK in 212ms (Views: 209.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg-title-01.jpg" for ::1 at 2019-01-29 23:55:14 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/bg-title-01.jpg"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/phrases" for ::1 at 2019-01-29 23:55:22 -0500
+Processing by Epiphany::PhrasesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/phrases/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/phrases/index.html.erb within layouts/epiphany/application (0.9ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.4ms)
+Completed 200 OK in 115ms (Views: 114.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany" for ::1 at 2019-01-30 00:27:44 -0500
+Processing by Epiphany::HomeController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application (5.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.9ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.7ms)
+Completed 200 OK in 280ms (Views: 276.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg-title-01.jpg" for ::1 at 2019-01-30 00:27:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/bg-title-01.jpg"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany" for ::1 at 2019-01-30 00:27:47 -0500
+Processing by Epiphany::HomeController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/home/index.html.erb within layouts/epiphany/application (1.1ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.6ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.4ms)
+Completed 200 OK in 129ms (Views: 128.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg-title-01.jpg" for ::1 at 2019-01-30 00:27:48 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/images/bg-title-01.jpg"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/BoBao/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/epiphany/entity_types" for ::1 at 2019-01-30 00:27:57 -0500
+Processing by Epiphany::EntityTypesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/entity_types/index.html.erb within layouts/epiphany/application (2.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.4ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.3ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (2.3ms)
+Completed 200 OK in 341ms (Views: 338.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/analyzers" for ::1 at 2019-01-30 00:28:12 -0500
+Processing by Epiphany::AnalyzersController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/analyzers/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/analyzers/index.html.erb within layouts/epiphany/application (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.5ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.4ms)
+Completed 200 OK in 120ms (Views: 118.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/epiphany/phrases" for ::1 at 2019-01-30 00:28:15 -0500
+Processing by Epiphany::PhrasesController#index as HTML
+  Rendering /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/phrases/index.html.erb within layouts/epiphany/application
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/epiphany/phrases/index.html.erb within layouts/epiphany/application (0.8ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_sidenav.html.erb (0.3ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_footer.html.erb (0.2ms)
+  Rendered /Users/BoBao/dev/poc/ml-tokenizer-poc/app/views/shared/_add_test_phrase_modal.html.erb (0.4ms)
+Completed 200 OK in 96ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
