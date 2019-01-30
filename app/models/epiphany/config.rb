@@ -1,3 +1,5 @@
+require_relative '../../../lib/epiphany/engine'
+
 module Epiphany
   class Config
     class << self
@@ -19,7 +21,7 @@ module Epiphany
       end
 
       def analyzers_dir
-        settings.analyzers_dir || File.join(Dir.pwd, 'app', 'models', 'epiphany' ,'analyzers', '*.rb')
+        @analyzers_dir ||= File.join(Epiphany::Engine.root, 'app', 'models', 'epiphany' ,'analyzers', '*.rb')
       end
 
       def http_proxy

@@ -1,7 +1,7 @@
 require 'test_helper'
 
 module Epiphany
-  class TestPhrasesControllerTest < ActionDispatch::IntegrationTest
+  class PhrasesControllerTest < ActionDispatch::IntegrationTest
     include Engine.routes.url_helpers
 
     # test "the truth" do

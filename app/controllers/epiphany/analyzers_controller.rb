@@ -1,6 +1,6 @@
 require_dependency "epiphany/application_controller"
 
 module Epiphany
-  class TestPhrasesController < ApplicationController
+  class AnalyzersController < ApplicationController
   end
 end
