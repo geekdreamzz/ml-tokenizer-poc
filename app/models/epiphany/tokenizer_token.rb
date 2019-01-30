@@ -20,7 +20,6 @@ module Epiphany
       def load_analyzers!
         @analyzers ||= Epiphany::Config.phrase_token_analyzers.map do |analyzer|
           self.class.include analyzer
-          self.class.extend analyzer
           analyzer
         end
       end

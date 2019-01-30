@@ -1,3 +1,5 @@
+require_relative '../../../lib/epiphany/engine'
+
 module Epiphany
   class Config
     class << self
