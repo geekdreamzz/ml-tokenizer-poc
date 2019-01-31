@@ -14,8 +14,7 @@ module Epiphany
 
           self.class.text_match_entity_types.map do |entity_type|
             if entity_type.phrases_for_validation.include?(fragment.normalized_phrase)
-              entity = Struct.new(:type, :phrase)
-              entity.new(entity_type.type, fragment.normalized_phrase)
+              Epiphany::Entity.new(entity_type.type, fragment.normalized_phrase)
             end
           end.compact + fragment.detected_parts_of_speech
 

@@ -1,6 +1,7 @@
 require 'active_support/concern'
 require 'active_support/inflector'
 require_relative 'entity_type'
+require_relative 'tokenizer_cache'
 
 module Epiphany
   class Tokenizer
@@ -13,7 +14,7 @@ module Epiphany
         end
 
         def all_entity_types
-          @all_entity_types ||= (default_entity_types + custom_entity_types.values.compact)
+          default_entity_types + custom_entity_types.values.compact
         end
 
         def text_match_entity_types
@@ -49,20 +50,11 @@ module Epiphany
         # end
         #
         def default_entity_types(*args)
-          @_dictionary_entities ||= file_paths_for('entity_types', args).map do |path|
-            data = JSON.parse(File.read(path))
-            Epiphany::EntityType.new(path, data)
-          end
+          Epiphany::Tokenizer::Cache.all_entity_types
         end
 
         def default_intent_types(*args)
-          @_dictionary_intents ||= file_paths_for('intent_types', args).map do |path|
-            data = JSON.parse(File.read(path))
-            intent_type = data.keys.first
-            data.merge! data[intent_type]
-            data[:type] = intent_type
-            IntentType.new(path, data)
-          end
+          Epiphany::Tokenizer::Cache.all_intent_types
         end
 
         def file_paths_for(type, names)
@@ -284,7 +276,7 @@ module Epiphany
         #
         def custom_entity_type_and_analyzer(**args)
           validate_entity_analyzer_args(args)
-          custom_entity_types[args[:type]] = Epiphany::EntityType.new(args[:type], args)
+          custom_entity_types[args[:type]] = Epiphany::EntityType.new(args)
         end
 
         def custom_intent_type_by_callback(**args)
@@ -297,7 +289,7 @@ module Epiphany
           raise ArgumentError.new("entity_name: must be a symbol Tokenizer custom entity callback.") unless args[:entity_name].is_a? Symbol
           raise ArgumentError.new("custom_analyzer: is required for Tokenizer custom entity type analyzer.") unless args[:custom_analyzer]
           raise ArgumentError.new("custom_analyzer: must be a subclass of Epiphany::Phrase::CustomAnalyzer") unless args[:custom_analyzer].superclass == Epiphany::CustomAnalyzer
-          args[:type] = args[:entity_name].to_s
+          args[:name] = args[:entity_name].to_s
           args[:validation_type] = "custom_analyzer"
           args
         end

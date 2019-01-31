@@ -1,5 +1,7 @@
 #require 'nokogiri'
 #require 'open-uri'
+#
+require_relative 'entity'
 
 module Epiphany
   class Tokenizer
@@ -93,8 +95,7 @@ module Epiphany
       def detected_parts_of_speech
         @detected_parts_of_speech ||= DEFAULT_VALIDATORS.map do |pos|
           if can_be? pos
-            entity = Struct.new(:type, :phrase)
-            entity.new(pos, normalized_phrase)
+            Epiphany::Entity.new(pos, normalized_phrase)
           end
         end.compact
       end
@@ -107,8 +108,7 @@ module Epiphany
       def text_match_entities
         @text_match_entities ||= text_match_entity_types.map do |entity_type|
           if entity_type.phrases_for_validation.include?(normalized_phrase)
-            entity = Struct.new(:type, :phrase)
-            entity.new(entity_type.type, normalized_phrase)
+            Epiphany::Entity.new(entity_type.type, normalized_phrase)
           end
         end.compact
 

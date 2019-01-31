@@ -1,8 +1,14 @@
 <div class="row">
   <div class="col-md-12">
     <div class="overview-wrap">
-      <h2 class="title-1">overview</h2>
-      <button class="au-btn au-btn-icon au-btn--blue">
+      <% if flash[:notice] %>
+        <div class="alert alert-primary" role="alert">
+          <%= flash[:notice] %>
+        </div>
+      <% else %>
+        <h2 class="title-1">overview</h2>
+      <% end %>
+      <button class="au-btn au-btn-icon au-btn--blue" type="button" data-toggle="modal" data-target="#addEntityType">
         <i class="zmdi zmdi-plus"></i>
         New Entity Type
       </button>

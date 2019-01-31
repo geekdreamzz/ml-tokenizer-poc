@@ -12,7 +12,6 @@ module Epiphany
     include IntentScorer
     include Cache
 
-    REDIS_CONNECTION = Cache::REDIS_CONNECTION
     FRAGMENT_CACHE = Cache::FRAGMENT_CACHE
 
     def initialize(phrase, **opts)
@@ -51,7 +50,7 @@ module Epiphany
     end
 
     def analyze_tokens!
-      @analysis ||= tokens.each(&:execute_analysis)
+      tokens.each(&:execute_analysis)
     end
 
     def grouped_fragments(start_idx, end_idx)
