@@ -40,7 +40,9 @@ def time_diff_milli(start, finish)
   "#{((finish - start) * 1000.0).round(2)} ms"
 end
 
-# Epiphany::Tokenizer::Cache.clear_phrases_cache
+Epiphany::Tokenizer::Cache.clear_phrases_cache
+
+binding.pry
 
 start = Time.now
 r = Epiphany::Tokenizer::Cache.fetch_phrase("record 55 pushups") do |phrase|
