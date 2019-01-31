@@ -3,7 +3,7 @@ module Epiphany
     module IntentScorer
 
       def all_entities
-        @all_entities ||= (tokens.map(&:all_entities).flatten.uniq + fragment_entities).uniq
+        @all_entities ||= (tokens.map(&:all_entities).flatten + fragment_entities).uniq {|e| e.type}
       end
 
       # fragments make up a token, but they're the same for the whole tokenizer

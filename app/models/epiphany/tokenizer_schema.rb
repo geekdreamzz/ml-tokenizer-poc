@@ -1,6 +1,7 @@
 require 'active_support/concern'
 require 'active_support/inflector'
 require_relative 'entity_type'
+require_relative 'intent_type'
 require_relative 'tokenizer_cache'
 
 module Epiphany
@@ -67,26 +68,6 @@ module Epiphany
           end
         end
 
-        #
-        # You can also include intents and entities that are custom to your use case
-        # via the custom_entity, and custom_intent class methods
-        # both methods require a name and conf_directory
-        # conf_directory should contain .json files that meet the
-        # Epiphany entity_type.json, intent_type.json specs
-        # please see #TODO add resource link for json specs for more information
-        # example:
-        #
-        def custom_entity(**args)
-          name, conf_file = validate_custom_args(args)
-          Epiphany::Config.custom_analyzers << Epiphany::EntityType.new(name, conf_file)
-        end
-
-        def custom_intent(**args)
-          name, conf_file = validate_custom_args(args)
-          conf_file.merge! conf_file[conf_file['type']]
-          custom_intents[name] = IntentType.new(name, conf_file)
-        end
-
         def validate_custom_args(args)
           filepath = args[:conf_filepath] || args[:conf_file_path]
           raise ArgumentError.new("name: is required for Tokenizer custom_entity.") unless args[:name]
@@ -123,7 +104,7 @@ module Epiphany
         #
         def custom_entity_type_and_analyzer(**args)
           validate_entity_analyzer_args(args)
-          custom_entity_types[args[:type]] = Epiphany::EntityType.new(args[:type], args)
+          custom_entity_types[args[:type]] = Epiphany::EntityType.new(args)
         end
 
         def custom_intent_type_by_callback(**args)
@@ -137,6 +118,7 @@ module Epiphany
           raise ArgumentError.new("custom_analyzer: is required for Tokenizer custom entity type analyzer.") unless args[:custom_analyzer]
           raise ArgumentError.new("custom_analyzer: must be a subclass of Epiphany::Phrase::CustomAnalyzer") unless args[:custom_analyzer].superclass == Epiphany::CustomAnalyzer
           args[:type] = args[:entity_name].to_s
+          args[:name] = args[:entity_name].to_s
           args[:validation_type] = "custom_analyzer"
           args
         end
@@ -146,6 +128,7 @@ module Epiphany
           raise ArgumentError.new("intent_name: must be a symbol Tokenizer custom intent callback.") unless args[:intent_name].is_a? Symbol
           raise ArgumentError.new("required_entities: [:some_entity] is required for Tokenizer custom intent callback.") unless args[:required_entities]
           args[:type] = args[:intent_name].to_s
+          args[:name] = args[:intent_name].to_s
           args
         end
       end
@@ -158,7 +141,7 @@ module Epiphany
         end
 
         def all_entity_types
-          @all_entity_types ||= (default_entity_types + custom_entity_types.values.compact)
+          default_entity_types + custom_entity_types.values.compact
         end
 
         def text_match_entity_types
@@ -194,20 +177,11 @@ module Epiphany
         # end
         #
         def default_entity_types(*args)
-          @_dictionary_entities ||= file_paths_for('entity_types', args).map do |path|
-            data = JSON.parse(File.read(path))
-            Epiphany::EntityType.new(path, data)
-          end
+          Epiphany::Tokenizer::Cache.all_entity_types
         end
 
         def default_intent_types(*args)
-          @_dictionary_intents ||= file_paths_for('intent_types', args).map do |path|
-            data = JSON.parse(File.read(path))
-            intent_type = data.keys.first
-            data.merge! data[intent_type]
-            data[:type] = intent_type
-            IntentType.new(path, data)
-          end
+          Epiphany::Tokenizer::Cache.all_intent_types
         end
 
         def file_paths_for(type, names)
@@ -218,26 +192,6 @@ module Epiphany
           else
             Dir[File.join(Epiphany::Engine.root, 'lib', 'epiphany', type, "*.json")]
           end
-        end
-
-        #
-        # You can also include intents and entities that are custom to your use case
-        # via the custom_entity, and custom_intent class methods
-        # both methods require a name and conf_directory
-        # conf_directory should contain .json files that meet the
-        # Epiphany entity_type.json, intent_type.json specs
-        # please see #TODO add resource link for json specs for more information
-        # example:
-        #
-        def custom_entity(**args)
-          name, conf_file = validate_custom_args(args)
-          Epiphany::Config.custom_analyzers << Epiphany::EntityType.new(name, conf_file)
-        end
-
-        def custom_intent(**args)
-          name, conf_file = validate_custom_args(args)
-          conf_file.merge! conf_file[conf_file['type']]
-          custom_intents[name] = IntentType.new(name, conf_file)
         end
 
         def validate_custom_args(args)
@@ -299,18 +253,8 @@ module Epiphany
           raise ArgumentError.new("intent_name: must be a symbol Tokenizer custom intent callback.") unless args[:intent_name].is_a? Symbol
           raise ArgumentError.new("required_entities: [:some_entity] is required for Tokenizer custom intent callback.") unless args[:required_entities]
           args[:type] = args[:intent_name].to_s
+          args[:name] = args[:intent_name].to_s
           args
-        end
-      end
-
-      class IntentType
-        attr_accessor :type, :optional_entities, :required_entities, :keywords_boost
-
-        def initialize(filepath, args)
-          @type = args["type"] || args[:type] || filepath.match(/(\w+)(.json)/i)[0].gsub('.json','')
-          @required_entities = args['required_entities'] || args[:required_entities] || []
-          @optional_entities = args['optional_entities'] || args[:optional_entities] || []
-          @keywords_boost = args[:keywords_boost] || args['keywords_boost'] || []
         end
       end
     end
