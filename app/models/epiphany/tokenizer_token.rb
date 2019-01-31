@@ -27,7 +27,7 @@ module Epiphany
       def execute_analysis
         @analysis ||= analyzers.each do |analysis|
           analysis.callback_method_names.each do |method_name|
-            public_send(method_name) rescue binding.pry
+            public_send(method_name) #rescue binding.pry
           end
         end
       end

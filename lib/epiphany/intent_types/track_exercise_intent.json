@@ -1,4 +1,5 @@
-{ "track_exercise": {
+{
+  "track_exercise": {
        "required_entities": ["body_weight_exercise", "verb", "integer"]
   }
 }

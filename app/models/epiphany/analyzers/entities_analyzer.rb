@@ -1,4 +1,5 @@
 require_relative '../tokenizer_analyzer'
+require_relative '../entity'
 
 module EntitiesAnalyzer
   include Epiphany::Tokenizer::Analyzer
@@ -25,8 +26,7 @@ module EntitiesAnalyzer
   def text_match_entities
     @text_match_entities ||= text_match_entity_types.map do |entity_type|
       if entity_type.phrases_for_validation.include?(phrase)
-        entity = Struct.new(:type, :phrase)
-        entity.new(entity_type.type, phrase)
+        Epiphany::Entity.new(entity_type.type, phrase)
       end
     end.compact + fragment_entities
   end
@@ -39,10 +39,9 @@ module EntitiesAnalyzer
     return [] if current_analyzer
     @custom_analyzer_entities ||= custom_analyzer_entity_types.map do |entity_type|
       if entity_type.validation_type == 'custom_analyzer'
-        entity = Struct.new(:type, :phrase)
         analyzer = entity_type.custom_analyzer.new(token = self, entity_type)
         if analyzer.valid_entity?
-          entity.new(entity_type.type, analyzer.validated_entity_value)
+          Epiphany::Entity.new(entity_type.type, analyzer.validated_entity_value)
         end
       end
     end.compact

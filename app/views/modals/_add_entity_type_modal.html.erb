@@ -1,0 +1,48 @@
+<div class="modal fade" id="addEntityType" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="largeModalLabel">Add Entity Type</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="card">
+          <div class="card-body">
+            <form action="/epiphany/entity_types" method="post">
+              <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+              <div class="form-group has-success">
+                <label for="entity-type-name" class="control-label mb-1">Entity Type Name</label>
+                <input id="entity-type-name" name="entity-type-name" type="text" class="form-control valid" data-val="true" data-val-required="Please enter name for entity type"
+                       aria-required="true" aria-invalid="false" aria-describedby="entity-type-name-error">
+                <span class="help-block field-validation-valid" data-valmsg-for="entity-type-name" data-valmsg-replace="true"></span>
+              </div>
+              <div class="form-group has-success">
+                <label for="validation_type" class="control-label mb-1">Entity Validation Type</label>
+                <input id="validation_type" name="validation_type" type="text" class="form-control valid" value="text_match"
+                       aria-required="true" disabled="true">
+                <span class="help-block field-validation-valid" data-valmsg-for="entity-type-name" data-valmsg-replace="true"></span>
+              </div>
+              <div class="form-group has-success">
+                <label for="key_phrases" class="control-label mb-1">Known Key Phrases</label>
+                <textarea rows="8" id="key_phrases" name="key_phrases" class="form-control valid" aria-required="true"
+                 placeholder="Comma separate a list of words/phrases in singular form. The system will automatically match different forms of grammar, however you may need to provide different variations of the phrase if the word/phrase is sometimes compound or split yielding multiple variations and/or if it has abbreviations." ></textarea>
+              </div>
+              <div>
+                <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
+                  <i class="zmdi zmdi-collection-bookmark"></i>
+                  <span id="payment-button-amount">Save</span>
+                  <span id="payment-button-sending" style="display:none;">Saving…</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
